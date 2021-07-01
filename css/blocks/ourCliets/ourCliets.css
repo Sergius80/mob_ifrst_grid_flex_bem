@@ -1,0 +1,38 @@
+
+/* ======= ourCliets ======= */
+
+.ourCliets__inner {
+	position: relative;
+	padding: 0 0 40px;
+}
+
+.ourCliets__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ourCliets__item {
+	display: none;
+	overflow: hidden;
+	width: 160px;
+  margin-bottom: 20px;
+}
+
+.ourCliets__item:nth-child(-n+2) {
+	display: block;
+}
+
+.ourClients__link {
+	display: block;
+	padding: 25px;
+	background: #fff;
+}
+
+.ourClients__link:hover {
+	background: #e8e8e8;
+}
+
+.ourClients__img {
+	width: 100%;
+}

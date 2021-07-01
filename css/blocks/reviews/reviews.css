@@ -1,0 +1,42 @@
+
+/* ======= reviews ======= */
+
+.reviews__inner {
+  position: relative;
+  padding: 20px 67px;
+}
+
+.reviews__avatars {
+  display: none;
+}
+
+.reviews__comment {
+  padding-bottom: 30px;
+}
+
+.reviews__autor,
+.reviews__company {
+  padding-left: 20px;
+  text-align: left;
+  display: block;
+  font-style: normal;
+  line-height: 1.4em;
+}
+
+.reviews__autorText {
+  padding: 0 0 15px;
+  font-size: 20px;
+  color: #222;
+  line-height: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.reviews__autor {
+  color: #222;
+  font-weight: bold;
+}
+
+.reviews__company {
+  font-weight: normal;
+}

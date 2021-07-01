@@ -1,0 +1,31 @@
+
+/* ======= to 576px ======= */
+
+/* ======= ourSuccess ======= */
+
+@media all and ( min-width: 576px ) {
+
+  .counters {
+    font-size: 18px;
+    padding: 100px 0;
+  }
+
+  .counters__title {
+    font-size: 50px;
+  }
+}
+
+/* ======= to 1199px ======= */
+
+@media all and ( min-width: 1199px ) {
+
+  .counters {
+    padding: 140px 0 147px;
+    font-size: 22px;
+  }
+
+  .counters__title {
+    font-size: 72px;
+  }
+
+}

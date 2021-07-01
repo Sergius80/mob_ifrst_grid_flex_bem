@@ -1,0 +1,36 @@
+
+/* ======= to 576px ======= */
+
+@media all and ( min-width: 576px ) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    text-align: left;
+  }
+
+  .section {
+    text-align: left;
+  }
+
+}
+
+/* ======= to 1199px ======= */
+
+@media all and ( min-width: 1200px ) {
+
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .section{
+    padding-top: 120px;
+  }
+
+}

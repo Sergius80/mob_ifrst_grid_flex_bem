@@ -1,0 +1,59 @@
+
+/* ======= to 576px ======= */
+
+/* ======= ourCliets ======= */
+
+@media all and ( min-width: 576px ) {
+  .ourCliets__item {
+    width: 35%;
+  }
+
+  .ourCliets__item:nth-child(-n+4) {
+    display: block;
+  }
+
+  .ourCliets__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+/* ======= to 1200px ======= */
+
+@media all and ( min-width: 1200px ) {
+  
+  .section_padding {
+    padding-top: 85px;
+  }
+
+  .ourCliets__item {
+    display: block;
+    width: 375px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0 0 40px;
+  }
+
+  .ourClients__link {
+    display: block;
+    overflow: hidden;
+    padding: 60px 50px;
+    width: 375px;
+    height: 200px;
+    box-sizing: border-box;
+  }
+
+  .btnPanel_arrows {
+    height: 50px;
+    bottom: 0px;
+    left: 0;
+  }
+
+  .btnPanel__arrows {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+}

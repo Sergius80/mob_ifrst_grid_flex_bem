@@ -1,0 +1,53 @@
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans_Regular/OpenSans-Regular.eot');
+    src: url('../assets/fonts/OpenSans_Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans_Regular/OpenSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/OpenSans_Regular/OpenSans-Regular.woff') format('woff'),
+        url('../assets/fonts/OpenSans_Regular/OpenSans-Regular.ttf') format('truetype'),
+        url('../assets/fonts/OpenSans_Regular/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans_Bold/OpenSans-Bold.eot');
+    src: url('../assets/fonts/OpenSans_Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans_Bold/OpenSans-Bold.woff2') format('woff2'),
+        url('../assets/fonts/OpenSans_Bold/OpenSans-Bold.woff') format('woff'),
+        url('../assets/fonts/OpenSans_Bold/OpenSans-Bold.ttf') format('truetype'),
+        url('../assets/fonts/OpenSans_Bold/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans_Italic/OpenSans-BoldItalic.eot');
+    src: url('../assets/fonts/OpenSans_Italic/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSans_Italic/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/OpenSans_Italic/OpenSans-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/OpenSans_Italic/OpenSans-BoldItalic.ttf') format('truetype'),
+        url('../assets/fonts/OpenSans_Italic/OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../assets/fonts/OpenSansCondensed_Bold/OpenSansCondensed-Bold.eot');
+    src: url('../assets/fonts/OpenSansCondensed_Bold/OpenSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/OpenSansCondensed_Bold/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('../assets/fonts/OpenSansCondensed_Bold/OpenSansCondensed-Bold.woff') format('woff'),
+        url('../assets/fonts/OpenSansCondensed_Bold/OpenSansCondensed-Bold.ttf') format('truetype'),
+        url('../assets/fonts/OpenSansCondensed_Bold/OpenSansCondensed-Bold.svg#OpenSansCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

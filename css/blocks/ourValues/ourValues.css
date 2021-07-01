@@ -1,0 +1,29 @@
+
+/* ======= ourValues ======= */
+
+.ourValues__inner {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+}
+
+.ourValues__textBox {
+  width: 80%;
+  padding: 0 0 15px 30px;
+}
+
+.headingInner_decore {
+  position: relative;
+  display: inline-block;
+}
+
+.headingInner_decore:after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 0px;
+  left: -30px;
+  background: #b6b6b6;
+}

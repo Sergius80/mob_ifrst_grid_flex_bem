@@ -1,0 +1,39 @@
+
+/* ======= promo ======= */
+
+@media all and ( min-width: 576px ) {
+
+  .container_promo {
+    position: relative;
+  }
+
+  .promo__textBox {
+    width: 300px;
+  }
+
+  .playButton {
+    display: block;
+  }
+  
+}
+
+/* ======= to 1200px ======= */
+
+@media all and ( min-width: 1200px ) {
+
+  .container_promo {
+    padding: 198px 0;
+    max-width: 1640px;
+  }
+
+  .promo__textBox {
+    width: 670px;
+  }
+
+  .promo__paragraf {
+    padding: 33px 0 40px 0px;
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+}

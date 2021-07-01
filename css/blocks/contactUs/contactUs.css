@@ -1,0 +1,102 @@
+
+
+/* ======= contactUs ======= */
+
+.contactUs_padding {
+  padding-bottom: 50px;
+}
+
+.contactUs__placeholder {
+  display: none;
+}
+
+.formContactsUs {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.1em;
+  font-weight: 400;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formContactsUs__label {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 16px 0 23px;
+  border-bottom: 2px solid #000;
+}
+
+.formContactsUs__input {
+  display: block;
+  width: 100%;
+  padding: 10px 5px 7px 20px;
+  box-sizing: border-box;
+  border: 0;
+  background: #F9F9F9;
+}
+
+.labelTextarea {
+  padding-bottom: 20px;
+}
+
+.formContactsUs__textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 5px 10px 20px;
+  box-sizing: border-box;
+  border: 0;
+  color: #222;
+  font-size: 15px;
+  line-height: 1.1em;
+  background: #F9F9F9;
+}
+
+.formContactsUs__input:focus {
+  outline: none;
+}
+
+.formContactsUs__textarea:focus {
+  outline: none;
+} 
+
+.checkboxLabel {
+  padding-bottom: 20px;
+  text-align: left;
+  display: flex;
+  border-bottom: 0;
+}
+
+.formContactsUs__inputHolder {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  padding-top: 3px;
+}
+
+.formContactsUs__checkbox {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.formContactsUs__agreeText {
+  display: inline-block;
+  width: 215px;
+}
+
+
+.btnSend {
+  display: block;
+  text-align: left;
+}
+
+.btnInput {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1.1em;
+  font-weight: 600;
+  font-family: 'Open Sans';
+}

@@ -1,0 +1,20 @@
+
+/* ======= containers ======= */
+
+body {
+  font-size: 14px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main {
+  min-width: 320px;
+}
+
+.section{
+  position: relative;
+}

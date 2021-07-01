@@ -1,0 +1,79 @@
+
+/* ======= ContactsU ======= */
+
+/* ======= to 576px ======= */
+
+@media all and ( min-width: 576px ) {
+
+  .formContactsUs__agreeText {
+    width: 400px;
+  }
+
+}
+
+/* ======= to 1199px ======= */
+
+@media all and ( min-width: 1199px ) {
+
+  .contactUs_padding {
+    padding-bottom: 120px;
+  }
+
+  .contactUs__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .formContactsUs {
+    box-sizing: border-box;
+    width: 620px;
+    padding: 0 40px 0 0;
+    line-height: 1.1em;
+  }
+
+  .contactUs__placeholder {
+  	display: block;
+    width: 580px;
+  }
+
+  .contactUs__img {
+    width: 100%;
+  }
+
+  .formContactsUs__label {
+    padding: 24px 0 8px;
+    margin: 0px 0 21px;
+  }
+
+  .formContactsUs__input {
+    font-size: 18px;
+    line-height: 1.1em;
+  }
+
+  .formContactsUs__textarea {
+    font-size: 20px;
+    line-height: 1.1em;
+  }
+
+  .labelTextarea {
+    padding: 13px 0 39px 0px;
+    margin: 0 0 35px 0px;
+  }
+
+  .checkboxLabel {
+    padding: 0;
+    margin: 0px 0 15px;
+    font-size: 20px;
+    line-height: 1.1em;
+  }
+
+  .formContactsUs__checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  .formContactsUs__agreeText {
+    width: 540px;
+    overflow: hidden;
+  }
+
+}

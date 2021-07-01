@@ -1,0 +1,62 @@
+
+ /* ======= headingsMedia ======= */
+
+/* =======  to 576px ======= */
+
+@media all and ( min-width: 576px ) {
+ 
+  .heding_greenLine:after {
+    content: "";
+    left: 0;
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .headingInner_decore:after {
+    width: 30px;
+    height: 30px;
+    left: -40px;
+  }
+
+}
+
+/* =======  to 1200px ======= */
+
+@media all and ( min-width: 1200px ) {
+
+  .heading {
+    padding-bottom: 35px;
+    font-size: 144px;
+    line-height: 0.9em;
+  }
+
+  .headingInner_decor:after {
+    top: 7px;
+  }
+
+  .headingSection {
+    padding: 20px 0 55px;
+    font-size: 40px;
+  }
+
+  .headingInner {
+    padding-bottom: 0;
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .heding_greenLine:after {
+    top: 100%;
+    left: 0;
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .headingSection__decoreText {
+    display: block;
+  }
+  
+}

@@ -1,0 +1,16 @@
+
+/* ======= media.css ======= */
+
+@import "./blocks/headings/headingsMedia.css";
+@import "./blocks/containers/containersMedia.css";
+@import "./blocks/header/headerMedia.css";
+@import "./blocks/buttons/buttonsMedia.css";
+@import "./blocks/promo/promoMedia.css";
+@import "./blocks/ourProducts/ourProductsMedia.css";
+@import "./blocks/ourTechnologies/ourTechnologiesMedia.css";
+@import "./blocks/ourSuccess/ourSuccessMedia.css";
+@import "./blocks/ourValues/ourValuesMedia.css";
+@import "./blocks/ourCliets/ourClietsMedia.css";
+@import "./blocks/reviews/reviewsMedia.css";
+@import "./blocks/contactUs/contactUsMedia.css";
+@import "./blocks/footer/footerMedia.css";

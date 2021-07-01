@@ -1,0 +1,166 @@
+
+/* ======= buttons ======= */
+
+.button {
+  display: inline-block;
+}
+
+.button__text {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #03A65A;
+}
+
+.playButton {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  margin: -50px 0 0;
+  width: 80px;
+  height: 80px;
+  transition: 600ms;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.playButton__img {
+  width: 100%;
+  display: block;
+}
+
+.btnPanel {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  min-width: 100px;
+  height: 20px;
+  margin-left: -50px;
+}
+
+.btnPanel__btn {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  cursor: pointer;
+}
+
+.btnPanel__btn_active {
+  background: #03a65a;
+}
+
+.btnPanel__btn:hover {
+  background: #03a65a;
+}
+
+.btnPanel_arrows {
+  height: 20px;
+	bottom: 0px;
+}
+
+.btnPanel__arrows {
+	width: 25px;
+	height: 25px;
+	border-radius: 0;
+}
+
+.btnPanel__arrows_Left {
+
+	background: url("../../../assets/img/buttons/arrow-left.jpg") center / cover no-repeat;
+}
+
+.btnPanel__arrows_right {
+	background: url("../../../assets/img/buttons/arrow-right.jpg") center / cover  no-repeat;
+}
+
+.btnPanel__arrows_Left:hover {
+	background: url("../../../assets/img/buttons/arrow-left.jpg") center / cover no-repeat;
+}
+
+.btnPanel__arrows_right:hover {
+	background: url("../../../assets/img/buttons/arrow-right.jpg") center / cover  no-repeat;
+}
+
+.linkMore_underline {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.linkMore_underline:hover {
+  text-decoration: none;
+}
+
+.androidApp__link:hover {
+  text-decoration: underline;
+}
+
+.pageNav {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 40px;
+  width: 18px;
+  height: 190px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pageNav__item {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+}
+
+.pageNav__link {
+  display: block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+}
+
+.pageNav__dot {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+.pageNav__link_active .pageNav__dot {
+  width: 18px;
+  height: 18px;
+  background: #03A65A;
+}
+
+.pageNav__link:hover .pageNav__dot {
+  width: 18px;
+  height: 18px;
+  background: #03A65A;
+}
+
+.oNtop {
+  display: none;
+  position: fixed;
+  bottom: 10%;
+  right: 70px;
+  width: 50px;
+  height: 50px;
+}
+
+.oNtop__link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: url("../../../assets/img/buttons/oNtop-buttont.jpg") no-repeat;
+}
+
+

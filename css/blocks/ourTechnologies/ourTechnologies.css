@@ -1,0 +1,59 @@
+
+/* ======= ourTechnologies ======= */
+
+.androidApp__list {
+  padding: 20px 0 0px;
+}
+
+.certificate {
+  padding: 15px 0 100px;
+  border-top: 2px solid #636363;
+}
+
+.certificate__list {
+  display: grid;
+  grid-template-columns: repeat( 2, minmax(120px, 120px));
+  grid-template-rows: repeat( 4, minmax(120px, 120px) );
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+  justify-content: center;
+}
+
+.androidApp__item {
+  padding-bottom: 15px;
+}
+
+.androidApp__link {
+  display: inline-block;
+  color: #636363;
+}
+
+.certificate__item {
+  width: 120px;
+  height: 120px;
+}
+
+.certificate__link {
+  display: block;
+}
+
+.certificate__box {
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  padding: 23px;
+  background: #fff;
+}
+
+.certificate__img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.certificate__text {
+  padding: 5px 10px;
+  display: block;
+}

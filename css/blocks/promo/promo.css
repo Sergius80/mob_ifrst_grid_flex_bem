@@ -1,0 +1,16 @@
+
+/* ======= promo ======= */
+
+.promo {
+  background: url("../../../assets/img/promo/promo-bg.jpg") center / cover no-repeat;
+}
+
+.container_promo {
+  padding: 50px 0;
+}
+
+.promo__paragraf {
+  padding: 20px 0 30px;
+  color: #272727;
+  font-weight: bold;
+}

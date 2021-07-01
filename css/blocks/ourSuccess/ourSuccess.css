@@ -1,0 +1,24 @@
+
+/* ======= ourSuccess ======= */
+
+.ourSuccess {
+  color: #fff;
+  font-size: 14px;
+  background: url("../../../assets/img/ourSuccess/bg-counters.jpg") center / cover no-repeat;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0;
+  text-align: center;
+
+}
+
+.counters__title {
+  font-size: 25px;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+

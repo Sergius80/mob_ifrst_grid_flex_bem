@@ -1,0 +1,78 @@
+/* ======= to 1199px ======= */
+
+/* ======= reviews ======= */
+
+@media all and ( min-width: 1199px ) {
+
+  .btnPanel_none {
+    display: none;
+  }
+
+  .reviews__content {
+    display: flex;
+  }
+
+  .reviews__avatars {
+    display: grid;
+    grid-template-columns: repeat( 2, minmax(103px, 103px));
+    grid-template-rows: repeat( 4, minmax(103px, 103px) );
+    grid-row-gap: 30px;
+    grid-column-gap: 25px;
+    width: 365px;
+  }
+
+  .reviews__avatar {
+    overflow: hidden;
+    width: 103px;
+    height: 103px;
+  }
+  .reviews__comment {
+    width: 560px;
+    padding: 160px 0 0 150px;
+  }
+
+  .reviews__autor,
+  .reviews__company {
+    padding-left: 0px;
+  }
+
+
+  .reviews__autorText {
+    font-size: 40px;
+  }
+  .reviews__img {
+    width: 100%;
+  }
+
+  .reviews__avatar_active{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    padding: 5px;
+    width: 206px;
+    height: 206px;
+    border-radius: 50%;
+    border: 10px solid #03A65A;
+  
+  }
+  
+  .reviews__avatar:first-child {
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
+
+  .reviews__avatar:nth-child(2) {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+
+  .reviews__avatar:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 4/4;
+  }
+
+  .reviews__avatar:last-child {
+    grid-column: 1/1;
+    grid-row: 3/4;
+  }
+
+}
